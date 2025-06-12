@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/tab.css">
+    <script src="https://kit.fontawesome.com/06743fe9aa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+         
+        <div class="logo">
+            <img src="asset/image/logo1.jpg" alt="error">
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="my-btn"> <i class="fa-solid fa-bars"></i></label>
+
+        <ul class="menu" id="menu">
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="book.html">BOOK</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+              <li><a href="signup.html">SIGNUP/LOGIN</a></li>
+        </ul>
+       
+    </nav>
+    <section>
+        <div class="slider" id="slider">
+            <img src="asset/image/slider1.jpg" alt="error">
+            <img src="asset/image/slider2.jpg" alt="error">
+            <img src="asset/image/slider3.jpg" alt="error">
+            <img src="asset/image/slider4.jpg" alt="error">
+            <img src="asset/image/slider5.jpg" alt="error">
+        </div>
+    </section>
+    <div class="radio">
+        <input type="radio" name="class" id="input1" onclick="slider1()">
+        <input type="radio" name="class" id="input2" onclick="slider2()">
+        <input type="radio" name="class" id="input3" onclick="slider3()">
+        <input type="radio" name="class" id="input4" onclick="slider4()">
+        <input type="radio" name="class" id="input5" onclick="slider5()">
+    </div>
+    <script>
+        var x=document.getElementById("slider")
+        console.log(x)
+        function slider1(){
+            x.style.left="0%"
+        }
+        function slider2(){
+            x.style.left="-100%"
+        }
+        function slider3(){
+            x.style.left="-200%"
+        }
+        function slider4(){
+            x.style.left="-300%"
+        }
+        function slider5(){
+            x.style.left="-400%"
+        }
+   
+    </script>
+
+    <!-- destination start -->
+
+<div class="destination" >
+    <h1>Tour<span>Destination</span></h1>
+
+    <div class="dest_box">
+        <div class="tour_card">
+
+            <div class="tour_image">
+                <img src="asset/image/jaipur.jpg">
+            </div>
+            <div class="tour_info">
+                <h2>Jaipur,Rajasthan,India</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                </p>
+                <h3>Price- <del>5000Rs</del></h3>
+                <ins>2999Rs</ins>
+                <div class="star_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="book_btn">Booking Now</a>
+            </div>
+
+        </div> 
+        <div class="tour_card">
+
+            <div class="tour_image">
+                <img src="asset/image/jammu.jpg">
+            </div>
+            <div class="tour_info">
+                <h2>Jamuu & Kashmir,India</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                </p>
+                <h3>Price- <del>10000Rs</del></h3>
+                <ins>7999Rs</ins>
+                <div class="star_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="book_btn">Booking Now</a>
+            </div>
+
+        </div> 
+        <div class="tour_card">
+
+            <div class="tour_image">
+                <img src="asset/image/goabeach.jpg">
+            </div>
+            <div class="tour_info">
+                <h2>Beach,Goa,India</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                </p>
+                <h3>Price- <del>8000Rs</del></h3>
+                <ins>6999Rs</ins>
+                <div class="star_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="book_btn">Booking Now</a>
+            </div>
+
+        </div> 
+        <div class="tour_card">
+
+            <div class="tour_image">
+                <img src="asset/image/ladakh.jpg">
+            </div>
+            <div class="tour_info">
+                <h2>Leh-Ladakh,India</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                </p>
+                <h3>Price- <del>15000Rs</del></h3>
+                <ins>12999Rs</ins>
+                <div class="star_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="book_btn">Booking Now</a>
+            </div>
+
+        </div> 
+        <div class="tour_card">
+
+            <div class="tour_image">
+                <img src="asset/image/shimla.jpg">
+            </div>
+            <div class="tour_info">
+                <h2>Shimla,H.P,India</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                </p>
+                <h3>Price- <del>5000Rs</del></h3>
+                <ins>2999Rs</ins>
+                <div class="star_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="book_btn">Booking Now</a>
+            </div>
+
+        </div> 
+        <div class="tour_card">
+
+            <div class="tour_image">
+                <img src="asset/image/tajhotel.jpg">
+            </div>
+            <div class="tour_info">
+                <h2>Mumbai,India</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                </p>
+                <h3>Price- <del>5000Rs</del></h3>
+                <ins>2999Rs</ins>
+                <div class="star_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="book_btn">Booking Now</a>
+            </div>
+
+        </div> 
+        <div class="tour_card">
+
+            <div class="tour_image">
+                <img src="asset/image/tajmahal.jpg">
+            </div>
+            <div class="tour_info">
+                <h2>Agar,U.P,India</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                </p>
+                <h3>Price- <del>5000Rs</del></h3>
+                <ins>2999Rs</ins>
+                <div class="star_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="book_btn">Booking Now</a>
+            </div>
+
+        </div> 
+        <div class="tour_card">
+
+            <div class="tour_image">
+                <img src="asset/image/delhi.jpg">
+            </div>
+            <div class="tour_info">
+                <h2>Delhi,India</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                </p>
+                <h3>Price- <del>5000Rs</del></h3>
+                <ins>2999Rs</ins>
+                <div class="star_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="book_btn">Booking Now</a>
+            </div>
+
+        </div> 
+        <div class="tour_card">
+
+            <div class="tour_image">
+                <img src="asset/image/kerala.jpg">
+            </div>
+            <div class="tour_info">
+                <h2>Kerala,India</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                </p>
+                <h3>Price- <del>5000Rs</del></h3>
+                <ins>2999Rs</ins>
+                <div class="star_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="book_btn">Booking Now</a>
+            </div>
+
+        </div> 
+            
+    </div>
+
+</div>
+
+<!-- destination end -->
+
+<!-- gallery -->
+<div class="gallary" id="Gallary">
+    <h1>Our<span>Gallary</span></h1>
+
+    <div class="gallary_image_box">
+        <div class="gallary_image">
+            <img src="asset/image/gallery1.jpg">
+
+            <h3>Tour</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi sint eveniet laboriosam 
+            </p>
+            <a href="#" class="gallary_btn">Book Now</a>
+        </div>
+        <div class="gallary_image">
+            <img src="asset/image/gallery2.jpg">
+
+            <h3>Tour</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi sint eveniet laboriosam 
+            </p>
+            <a href="#" class="gallary_btn">Book Now</a>
+        </div>
+        <div class="gallary_image">
+            <img src="asset/image/gallery3.jpg">
+
+            <h3>Tour</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi sint eveniet laboriosam 
+            </p>
+            <a href="#" class="gallary_btn">Book Now</a>
+        </div>
+        <div class="gallary_image">
+            <img src="asset/image/gallery4.jpg">
+
+            <h3>Tour</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi sint eveniet laboriosam 
+            </p>
+            <a href="#" class="gallary_btn">Book Now</a>
+        </div>
+        <div class="gallary_image">
+            <img src="asset/image/gallery5.jpg">
+
+            <h3>Tour</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi sint eveniet laboriosam 
+            </p>
+            <a href="#" class="gallary_btn">Book Now</a>
+        </div>
+        <div class="gallary_image">
+            <img src="asset/image/gallery6.jpg">
+
+            <h3>Tour</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi sint eveniet laboriosam 
+            </p>
+            <a href="#" class="gallary_btn">book Now</a>
+        </div>
+
+        
+
+    </div>
+
+</div>
+
+<!-- gallery end -->
+
+<!-- review start -->
+
+
+<div class="review" id="Review">
+    <h1>Customer<span>Review</span></h1>
+
+    <div class="review_box">
+        <div class="review_card">
+
+            <div class="review_profile">
+                <img src="asset/image/review.jpeg">
+            </div>
+
+            <div class="review_text">
+                <h2 class="name">Abhishek Mishra</h2>
+
+                <div class="review_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quam facere 
+                    blanditiis in fugiat tempore necessitatibus aliquid. 
+
+                </p>
+
+            </div>
+
+        </div>
+        <div class="review_card">
+
+            <div class="review_profile">
+                <img src="asset/image/review.jpeg">
+            </div>
+
+            <div class="review_text">
+                <h2 class="name">Abhishek Mishra</h2>
+
+                <div class="review_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quam facere 
+                    blanditiis in fugiat tempore necessitatibus aliquid. 
+
+                </p>
+
+            </div>
+
+        </div>
+        <div class="review_card">
+
+            <div class="review_profile">
+                <img src="asset/image/review.jpeg">
+            </div>
+
+            <div class="review_text">
+                <h2 class="name">Abhishek Mishra</h2>
+
+                <div class="review_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quam facere 
+                    blanditiis in fugiat tempore necessitatibus aliquid. 
+
+                </p>
+
+            </div>
+
+        </div>
+        <div class="review_card">
+
+            <div class="review_profile">
+                <img src="asset/image/review.jpeg">
+            </div>
+
+            <div class="review_text">
+                <h2 class="name">Abhishek Mishra</h2>
+
+                <div class="review_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quam facere 
+                    blanditiis in fugiat tempore necessitatibus aliquid.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        
+
+    </div>
+
+</div>
+<!-- review end -->
+
+   <!--Footer-->
+
+   <footer>
+    <div class="footer_main">
+
+        <div class="footer_tag">
+            <h2>Location</h2>
+            <p>Sri Lanka</p>
+            <p>USA</p>
+            <p>India</p>
+            <p>Japan</p>
+            <p>Italy</p>
+        </div>
+
+        <div class="footer_tag">
+            <h2>Contact</h2>
+            <p>+91 7415665855</p>
+            <p>+91 7455568558</p>
+            <p>travel123@gmail.com</p>
+            <p>bookingtravel123@gmail.com</p>
+        </div>
+
+        <div class="footer_tag">
+            <h2>Our Service</h2>
+            <p>Easy Booking</p>
+            <p>Easy Payments</p>
+            <p>24 x 7 Service</p>
+        </div>
+
+        <div class="footer_tag">
+            <h2>Follows</h2>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+
+    </div>
+
+    <p class="end">Design by<span><i class="fa-solid fa-face-grin"></i> Abhishek Mishra</span></p>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
